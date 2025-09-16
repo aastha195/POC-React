@@ -1,4 +1,4 @@
-export const SHELF_KEYS = ['currentlyReading','wantToRead','read','none'];
+export const SHELF_KEYS = ['currentlyReading','wantToRead','read','none'];  
 
 export function loadShelves(){
   const raw = localStorage.getItem('bookshelves_v2'); //Reads saved shelf data from the browser localStorage

@@ -88,8 +88,8 @@ export default function SearchPage(){
       <section>
         <h2>Results {query ? `"${query}"` : ''}</h2> 
         <div className="grid">
-          {results.length === 0 && <p>No results</p>}
-          {results.map(item => {
+          {results.length === 0 && <p>No results</p>} 
+          {results.map(item => { 
             const b = {
               id: item.id,
               title: item.volumeInfo.title, //bookcard comp (book details)
